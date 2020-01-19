@@ -1,3 +1,10 @@
 .header {
-https://github.com/VictoriaKl91/repo-name/blob/master/images/football_1920.jpg
+  display: block;
+  position: relative;
+  width: 100%;
+  background-image: url("https://github.com/VictoriaKl91/repo-name/blob/master/images/football_1920.jpg")
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-color: #000000;
 }
