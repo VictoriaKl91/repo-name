@@ -2,6 +2,24 @@ body {
   margin: 0;
 }
 
+a {
+  text-decoration: none;
+}
+
+@font-face {
+  font-family: OpenSans_R;
+  src: url("https://raw.githubusercontent.com/VictoriaKl91/repo-name/master/fonts/OpenSans-Regular.woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: OpenSans_B;
+  src: url("https://raw.githubusercontent.com/VictoriaKl91/repo-name/master/fonts/OpenSans-Bold.woff");
+  font-weight: 700;
+  font-style: normal;
+}
+
 .header {
   display: block;
   position: relative;
