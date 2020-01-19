@@ -43,7 +43,6 @@ a {
 }
 
 .container {
-  max-width: 1900px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -52,13 +51,13 @@ a {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 25px;
-  padding-bottom: 147px;
+  padding-top: 385px;
+  padding-bottom: 400px;
   width: 840px;
   text-align: center;
 
   font-family: OpenSans_B, arial, sans-serif;
-  font-size: 45px;
+  font-size: 90px;
   line-height: 75px;
   text-transform: uppercase;
   color: #ffffff;
