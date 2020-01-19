@@ -20,6 +20,11 @@ a {
   font-style: normal;
 }
 
+.container {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .logo-icon {
   width: 11%;
   margin-top: 40px;
@@ -49,11 +54,6 @@ a {
   left: 0;
   right: 0;
   bottom: 0;
-}
-
-.container {
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .heading_header {
