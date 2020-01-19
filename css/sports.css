@@ -11,7 +11,7 @@
 .header::after {
   content: "";
   background-color: #0a0e34;
-  opacity: 0.1;
+  opacity: 0.9;
 
   position: absolute;
   top: 0;
