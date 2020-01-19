@@ -25,6 +25,11 @@ a {
   margin-right: auto;
 }
 
+.logo {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .logo-icon {
   width: 11%;
   margin-top: 40px;
