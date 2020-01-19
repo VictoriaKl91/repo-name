@@ -20,6 +20,14 @@ a {
   font-style: normal;
 }
 
+.logo {
+  width: 204px;
+  margin-top: 25px;
+
+  position: relative;
+  z-index: 2;
+}
+
 .header {
   display: block;
   position: relative;
