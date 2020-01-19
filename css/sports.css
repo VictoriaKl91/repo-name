@@ -22,9 +22,9 @@ a {
 
 .logo {
   width: 11%;
-  margin-top: 25px;
+  margin-top: 40px;
   
-  color: ##ffffff;
+  fill: ##ffffff;
   position: relative;
   z-index: 2;
 }
