@@ -137,3 +137,106 @@ a {
 .txt_button_1 {
   font-family: OpenSans_B, arial, sans-serif;
 }
+
+.footer {
+  display: block;
+  position: relative;
+  width: 100vw;
+  background-image: url("https://raw.githubusercontent.com/VictoriaKl91/repo-name/master/images/game_1920.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.footer::after {
+  content: "";
+  background-color: #0a0e34;
+  opacity: 0.9;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.container-footer {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.heading_footer {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  z-index: 2;
+}
+
+.heading_footer1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 7vw;
+  height: 7vw;
+  background-color: #5e42b0;
+  border-radius: 20px;
+  margin-top: 12vw;
+}
+
+.heading_footer2 {
+  display: flex;
+  flex-direction: column;
+  /*justify-content: flex-start;*/
+  margin-top: 12vw;
+  margin-left: 40px;
+  height: 7vw;
+  text-transform: uppercase;
+  text-align: left;
+}
+
+.heading_footer2_txt1 {
+  font-family: OpenSans_B, arial, sans-serif;
+  font-size: 4.16vw;
+  color: #ffffff;
+  margin-top: -0.52vw;
+  margin-bottom: 0;
+}
+
+.heading_footer2_txt2 {
+  font-family: OpenSans_R, arial, sans-serif;;
+  font-size: 1.55vw;
+  color: #a496ca;
+  margin-top: -0.52vw;
+  margin-bottom: 0;
+}
+
+.logo-icon-button {
+  display: block;
+  width: 75%;
+  margin: auto;
+  fill: #ffffff;
+}
+
+.system-footer {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  z-index: 2;
+  justify-content: center;
+  margin-top: 7.55vw;
+  margin-bottom: 19vw;
+}
+
+.logo-footer {
+  display: flex;
+  justify-content: center;
+}
+
+.logo-icon-footer {
+  width: 11%;
+  margin-bottom: 2.6vw;
+  fill: #ffffff;
+  position: relative;
+  z-index: 2;
+}
+
