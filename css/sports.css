@@ -33,7 +33,6 @@ a {
 .logo-icon {
   width: 11%;
   margin-top: 40px;
-  
   fill: #ffffff;
   position: relative;
   z-index: 2;
@@ -42,7 +41,7 @@ a {
 .header {
   display: block;
   position: relative;
-  width: 100%;
+  width: 100vw;
   background-image: url("https://raw.githubusercontent.com/VictoriaKl91/repo-name/master/images/football_1920.jpg");
   background-repeat: no-repeat;
   background-position: center center;
@@ -63,19 +62,78 @@ a {
 
 .heading_header {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-  padding-top: 385px;
-  padding-bottom: 400px;
-  width: 80%;
-  text-align: center;
-
+  /*margin-left: auto;*/
+  /*margin-right: auto;*/
+  /*padding-top: 385px;*/
+  /* padding-bottom: 400px;*/
+  margin-top: 350px;
+  margin-bottom: 402px;
   font-family: OpenSans_B, arial, sans-serif;
-  font-size: 90px;
+  font-size: 4.7vw;
   line-height: 75px;
   text-transform: uppercase;
   color: #ffffff;
 
   position: relative;
   z-index: 2;
+}
+
+.heading_header_1 {
+  display: block;
+  margin-left: 10%;
+  text-align: left;
+}
+
+.heading_header_2 {
+  display: block;
+  margin-right: 10%;
+  text-align: right;
+}
+
+.system {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  z-index: 2;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.system_1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 0;
+  height: 78px;
+  background-color: #5e42b0;
+  width: 310px;
+  border-radius: 50px;
+  margin: 0px 25px 107px 25px;
+}
+
+.system_icon {
+  display: flex;
+}
+
+.icon {
+  display: block;
+  fill: #ffffff;
+  width: 41px;
+  margin-left: 14%;
+}
+
+.txt_button {
+  display: flex;
+  flex-direction: column;
+  margin-right: auto;
+  margin-left: 29px;
+  color: #ffffff;
+  font-size: 14px;
+  font-family: OpenSans_R, arial, sans-serif;
+  text-transform: uppercase;
+  text-align: left;
+}
+
+.txt_button_1 {
+  font-family: OpenSans_B, arial, sans-serif;
 }
