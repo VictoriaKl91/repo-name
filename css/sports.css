@@ -27,7 +27,7 @@ a {
 
 .header, .footer {
   position: relative;
-  width: 100vw;
+  width: 100%;
   display: block;
   background-repeat: no-repeat;
   background-size: cover;
@@ -243,6 +243,11 @@ a {
 .heading_footer1 {
   display: flex;
   background-color: #5e42b0;
+  border-radius: 25px;
+}
+
+.heading_footer1:hover {
+  background-color: #6137a0;
 }
 
 .logo-icon-button {
@@ -284,8 +289,10 @@ a {
   .system {
     display: block;
     padding-bottom: 26vw;
+    margin-right: auto;
+    margin-left: auto;
   }
-
+  
   .system_1 {
     margin: 4.38vw 6.25vw;
     height: 10.94vw;
@@ -296,6 +303,10 @@ a {
     border: 0;
     background-color: #5e42b0;
     border-radius: 50px;
+  }
+  
+  .system_1:hover {
+    background-color: #6137a0;
   }
 
   .icon {
@@ -367,8 +378,7 @@ a {
   }
 
   .block_txt1_1, .block_txt1_2 {
-    padding-top: 0;
-    padding-bottom: 17.5vw;
+    padding: 0.3vw 0.3vw 17.5vw 0.3vw;
     font-size: 4.69vw;
   }
 
@@ -420,14 +430,23 @@ a {
     width: 85.33vw;
     margin-top: 0;
     margin-bottom: 0;
-    padding-bottom: 25vw;    
+    padding-bottom: 25vw;
+    padding-right: 0.35vw;
+    padding-top: 0.35vw;
     font-size: 5vw;
+  }
+  
+  .block3_main1, .block3_main2, .block3_main3 {
+    position: relative;
+  }
+  
+  .block3_num {
+    margin-top: 92.5%;
+    margin-left: 6.25vw; 
   }
 
   .num {
-    margin-top: 92.8vw;
-    margin-left: 6.25vw;    
-    padding: 8.44vw 8.44vw;
+    padding: 8.125vw 8.125vw 6.88vw 8.125vw;
     font-size: 4.375vw;
   }
 
@@ -444,16 +463,17 @@ a {
   .heading_footer {
     flex-direction: column;
     align-items: center;
+    padding-top: 30.9vw;
   }
 
   .heading_footer1 {
-    margin-top: 30.9vw;
     width: 21.8vw;
     height: 21.8vw;
     border-radius: 20px;
   }
 
   .heading_footer2 {
+    width: 82.63vw;
     margin-top: 12vw;
     margin-left: auto;
     margin-right: auto;
@@ -496,7 +516,7 @@ a {
   .logo-icon-footer {
     width: 41vw;
     margin-top: 10.3vw;
-    margin-bottom: 2.6vw;
+    padding-bottom: 2.6vw;
   }
 }
 
@@ -552,11 +572,14 @@ a {
     flex-direction: row;
     justify-content: center;
   }
-
+  
+  .system_hiper {
+    margin: 0px 1.95vw 11.84vw 1.95vw;
+  }
+  
   .system_1 {
     height: 78px;
     width: 310px;
-    margin: 0px 1.95vw 11.84vw 1.95vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -611,8 +634,7 @@ a {
   }
 
   .block_txt_1, .block_txt_2 {
-    padding-top: 0;
-    padding-bottom: 2.7vw;
+    padding: 0.13vw 0.13vw 2.7vw 0.13vw;
     font-size: 2.1vw;
   }
 
@@ -665,26 +687,28 @@ a {
     padding-bottom: 4.9vw;   
     font-size: 10.4vw;
   }
-
+  
   .block3_txt_1, .block3_txt_2 {
     width: 85.33vw;
     margin-top: 0;
     margin-bottom: 0;
     padding-bottom: 12.2vw;
+    padding-right: 0.15vw;
+    padding-top: 0.15vw;
     font-size: 3.1vw;
   }
 
   .num {
     margin-top: 65.1vw;
     margin-left: 6.25vw;
-    padding: 5.6vw 5.6vw;
+    padding: 5.86vw 5.86vw 5.34vw 5.86vw;
     font-size: 3.13vw;
   }
 
   .num::after {
-    width: 3.26vw;
-    height: 0.52vw;
-    margin-top: 1.04vw;
+    width: 3.4vw;
+    height: 0.78vw;
+    margin-top: 1vw;
   }
 
   .footer {
@@ -694,17 +718,18 @@ a {
   .heading_footer {
     flex-direction: column;
     align-items: center;
+    padding-top: 15.8vw;
   }
 
   .heading_footer1 {
     width: 17.7vw;
     height: 17.7vw;
-    margin-top: 15.8vw;
-    display: flex;
+    isplay: flex;
     background-color: #5e42b0;
   }
 
   .heading_footer2 {
+    width: 82.63vw;
     margin-top: 12vw;
     margin-left: auto;
     margin-right: auto;
@@ -739,7 +764,7 @@ a {
 
   .logo-icon-footer {
     width: 26vw;
-    margin-bottom: 2.6vw;
+    padding-bottom: 2.6vw;
   }
 }
 
@@ -777,9 +802,12 @@ a {
     flex-direction: row;
     justify-content: center;
   }
-
+  
+  .system_hiper {
+     margin: 0px 1.95vw 11.84vw 1.95vw;
+  }
+ 
   .system_1 {
-    margin: 0px 1.95vw 11.84vw 1.95vw;
     width: 310px;
     height: 78px;
     display: flex;
@@ -788,6 +816,10 @@ a {
     border: 0;
     background-color: #5e42b0;
     border-radius: 50px;
+  }
+     
+  .system_1:hover {
+    background-color: #6137a0;
   }
 
   .icon {
@@ -842,8 +874,7 @@ a {
   }
 
   .block_txt_1, .block_txt_2, .block_txt1_1, .block_txt1_2 {
-    padding-top: 0;
-    padding-bottom: 2.6vw;
+    padding: 0.08vw 0.08vw 2.6vw 0.08vw;
     font-size: 1.04vw;
   }
 
@@ -860,46 +891,51 @@ a {
   }
 
   .block3_1img {
-    width: 50vw;
+    width: 49vw;
+  }
+  
+  .block3_2txt {
+    height: 37.26vw;
   }
 
   .block3_txt_1, .block3_h2_1 {
     width: 32.03vw;
     padding-left: 6.61vw;
-    padding-right: 11.35vw;
+    padding-right: 10vw;
   }
 
   .block3_txt_2, .block3_h2_2 {
     width: 33.18vw;
     padding-right: 6.71vw;
-    padding-left: 10.1vw;
+    padding-left: 9.21vw;
   }
 
   .block3_h2_1, .block3_h2_2 {
     margin-top: 0;
     margin-bottom: 0;
     padding-top: 12.5vw;
-    padding-bottom: 4.01vw;
+    padding-bottom: 3.9vw;
     font-size: 4.17vw;
   }
 
   .block3_txt_1, .block3_txt_2 {
     margin-top: 0;
     margin-bottom: 0;
-    padding-top: 0;
+    padding-top: 0.11vw;
+    padding-bottom: 0.11vw;
     font-size: 1.25vw;
   }
 
   .num {
     margin-top: 11.04vw;
     margin-left: 45.73vw;
-    padding: 3.33vw;
+    padding: 3.31vw 3.7vw;
     font-size: 1.24vw;
   }
 
   .num::after {
     width: 1.25vw;
-    height: 0.11px;
+    height: 0.31vw;
     margin-top: 0.11vw;
   }
 
@@ -909,10 +945,10 @@ a {
 
   .heading_footer {
     justify-content: center;
+    padding-top: 11.77vw;
   }
 
   .heading_footer1 {
-    margin-top: 11.77vw;
     width: 6.88vw;
     height: 6.88vw;
     justify-content: center;
@@ -921,7 +957,7 @@ a {
   }
 
   .heading_footer2 {
-    margin-top: 12.03vw;
+    width: 34.8vw;
     margin-left: 2.08vw;
     height: 6.98vw;
     display: flex;
@@ -956,7 +992,7 @@ a {
 
   .logo-icon-footer {
     width: 10vw;
-    margin-bottom: 2.76vw;
+    padding-bottom: 2.76vw;
   }
 }
 
@@ -1000,9 +1036,13 @@ a {
     flex-direction: row;
     justify-content: center;
   }
+  
+    
+  .system_hiper {
+    margin: 0px 25px 107px 25px;
+  }
 
   .system_1 {
-    margin: 0px 25px 107px 25px;
     height: 78px;
     width: 310px;
     display: flex;
@@ -1012,6 +1052,10 @@ a {
     border-radius: 50px;
     background-color: #5e42b0;
    }
+  
+  .system_1:hover {
+    background-color: #6137a0;
+  }
 
   .icon {
     width: 41px;
@@ -1023,8 +1067,7 @@ a {
     font-size: 14px;
   }
 
-  .block1,
-  .block2 {
+  .block1, .block2 {
     margin-top: 28px;
   }
 
@@ -1066,8 +1109,7 @@ a {
   }
 
   .block_txt_1, .block_txt_2, .block_txt1_1, .block_txt1_2 {
-    padding-top: 0;
-    padding-bottom: 50px;
+    padding: 1px 1px 50px 1px;
     font-size: 20px;
   }
 
@@ -1109,14 +1151,15 @@ a {
     margin-top: 0;
     margin-bottom: 0;
     padding-top: 240px;
-    padding-bottom: 77px;
+    padding-bottom: 75px;
     font-size: 80px;
   }
 
   .block3_txt_1, .block3_txt_2 {
     margin-top: 0;
     margin-bottom: 0;
-    padding-top: 0;
+    padding-top: 2px;
+    padding-bottom: 2.px;
     font-size: 24px;
   }
 
@@ -1139,19 +1182,19 @@ a {
 
   .heading_footer {
     justify-content: center;
+    padding-top: 226px;
   }
 
   .heading_footer1 {
     width: 132px;
     height: 132px;
-    margin-top: 226px;
     justify-content: center;
     align-items: center;
     border-radius: 20px;
   }
 
   .heading_footer2 {
-    margin-top: 231px;
+    width: 661px;
     margin-left: 40px;
     height: 134px;
     display: flex;
@@ -1175,7 +1218,7 @@ a {
     font-size: 30px;
     color: #a496ca;
   }
-
+  
   .system-footer {
     margin-top: 153px;
     margin-bottom: 156px;
@@ -1186,6 +1229,6 @@ a {
 
   .logo-icon-footer {
     width: 192px;
-    margin-bottom: 53px;
+    padding-bottom: 53px;
   }
 }
