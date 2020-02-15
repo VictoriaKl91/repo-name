@@ -724,7 +724,7 @@ a {
   .heading_footer1 {
     width: 17.7vw;
     height: 17.7vw;
-    isplay: flex;
+    display: flex;
     background-color: #5e42b0;
   }
 
@@ -1159,7 +1159,7 @@ a {
     margin-top: 0;
     margin-bottom: 0;
     padding-top: 2px;
-    padding-bottom: 2.px;
+    padding-bottom: 2px;
     font-size: 24px;
   }
 
